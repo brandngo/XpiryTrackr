@@ -4,10 +4,12 @@ import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <Text>Hello World!</Text>
+    <View style={styles.container}>
+      <Text>item</Text>
+      <Text>Item Exires: \n\n</Text>
+      <Text>Location: </Text>
       <StatusBar style="auto" />
-    </SafeAreaView>
+    </View>
   );
 }
 
