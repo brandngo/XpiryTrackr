@@ -15,9 +15,12 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    borderWidth: 1,
+    borderColor: "black",
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    borderRadius: 20,
   },
 });
