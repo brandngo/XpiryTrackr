@@ -10,4 +10,4 @@ const Fridge = ({navigation, route}) => {
 }
 
 
-export default Fridge;
+export default Fridge
